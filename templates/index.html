@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <title>Formulario</title>
+</head>
+<body>
+    <form class="formulario" action="/index" method="post">
+
+        <div class="content">
+            
+            <div class="content-formulario">
+                <label class="formulario-content-rotulo" for="nome">Nome:</label>
+                <input class="formulario-content-input" type="text" name="nome"><br>
+            </div>
+           
+            <div class="content-formulario">
+                <label class="formulario-content-rotulo" for="idade">Idade:</label>
+                <input class="formulario-content-input" type="text" name="idade"><br>
+            </div>
+            
+            <div class="content-formulario">
+                <label class="formulario-content-rotulo" for="peso">Peso:</label>
+                <input class="formulario-content-input" type="text" name="peso" step="any"><br>
+            </div>
+            
+            <div class="content-formulario">
+                <label class="formulario-content-rotulo" for="altura">Altura:</label>
+                <input class="formulario-content-input"type="text" name="altura" step="any"> <!--step="any" permite que o campo recebe um float.permite que você insira números decimais, incluindo floats-->
+            </div>
+          
+
+            
+        </div>
+        
+        <input class="botao" type="submit" value="Enviar">
+
+    </form>
+    
+</body>
+</html>
